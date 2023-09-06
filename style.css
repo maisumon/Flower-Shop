@@ -38,6 +38,7 @@ color: #FFF;
 font-size: 20px;
 font-weight: 700;
 border-style: none;
+cursor: pointer;
 }
 .top-img{
 width: 550px;
@@ -82,6 +83,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 35px; 
 text-decoration-line: underline;
+cursor: pointer;
 }
 .box2{
 width: 300px;
@@ -95,6 +97,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 35px; 
 text-decoration-line: underline;
+cursor: pointer;
 }
 .box3{
 width: 300px;
@@ -108,6 +111,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 35px;
 text-decoration-line: underline;
+cursor: pointer;
 }
 .box-img{
 width: 300px;
@@ -155,6 +159,7 @@ font-size: 18px;
 font-weight: 600;
 border-style: none;
 margin-left: 200px;
+cursor: pointer;
 }
 
 .font-color{
@@ -169,5 +174,83 @@ padding: 30px;
 /* Instagram */
 .insta-banner{
     width: 100%;
-    height: 600px;
+    height: 650px;
+    background-color: #FFF;
+    margin-top: 100px;
+}
+.insta-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.insta-line{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.insta-img{
+    width: 200px;
+    height: 250px;
+}
+.subscribe-banner{
+    margin-top: 80px;
+    margin-left: 370px;
+}
+.subscribe-img{
+    width: 850px;
+    height: 250px;
+}
+.email-box{
+    width: 379px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;  
+}
+.subcription-btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: none;
+    cursor: pointer;
+}
+/* Footer start from here*/
+.footer-banner{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.flower-color{
+    color: #E55473;
+}
+.shop-color{
+    color: white;
+}
+.footer-description{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+.copyright{
+    color: gray;
+    text-align: center;
 }
